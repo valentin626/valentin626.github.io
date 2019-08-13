@@ -1,0 +1,368 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+    outline: 0;
+}
+
+body {
+	font-family: "Roboto";
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h4, h5, h6 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.container {
+	max-width: 1600px;
+	margin: auto;
+	padding: 10px 20px 0 20px;
+}
+
+.container_2 {
+	max-width: 1200px;
+	margin: auto;
+	padding: 10px 20px 0 20px;
+}
+/*modificators*/
+.phone__whats {
+	color: #f87026;
+}
+
+.color_white {
+	color: #fff;
+}
+/*index*/
+header {
+	height: 930px;
+	background: url(../images/wind111.png);
+}
+
+.top {
+	width: 100%;
+	background: #e6e6e5;
+	opacity: 0.8;
+}
+
+.top__box {
+	width: 100%;
+	height: 105px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: auto;
+	max-height: 45px;
+}
+
+.phone {
+	width: 100%;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+.phone__itmes {
+	margin-left: 30px;
+}
+
+.feedback {
+	width: 180px;
+	background-color: #f87026;
+	color: #fff;
+	text-align: center;
+	padding: 12px 5px;
+	border-radius: 3px;
+	font-size: 13px;
+}
+
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.header__menu-item {
+	margin-top: 10px;
+	padding: 10px 20px;
+	font-weight: 700;
+}
+
+.header__menu-item:hover {
+	opacity: 0.8;
+	color: #f87026;
+	background-color: #fcfdfe;
+	padding: 10px 20px;
+	border-radius: 3px;
+
+}
+
+.offer__wrapper {
+background: rgb(208,208,208);
+background: linear-gradient(to right, rgba(208,208,208,0.6) 50%, rgba(208,208,208,0.6) 50%, rgba(208,208,208,0) 80%);
+
+	margin-top: 150px;
+}
+
+.offer__item {
+	display: flex;
+	margin-top: 60px;
+}
+
+.offer__item__text {
+	display: flex;
+	width: 290px;
+	font-size: 14px;
+}
+
+.offer__item__text img {
+	width: auto;
+	max-height: 40px;
+	margin-left: 30px;
+}
+
+.offer__item__text span {
+	display: block;
+	margin: 5px 0 0 20px;
+	font-size: 14px;
+}
+
+.offer__item__text-btn {
+	width: 220px;
+	padding: 12px 50px;
+	background-color: #2b2c30;
+	color: #fff;
+	font-weight: 700;
+}
+
+.offer__item-text__uslug {
+	width: 75%;
+	margin-top: 40px;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.offer__item-brn__consult {
+	width: 265px;
+	display: inline-block;
+	background-color: #f87026;
+	color: #fff;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 20px 40px;
+	border-radius: 3px;
+}
+
+.calculator__title {
+	margin-top: 10px;
+	font-size: 36px;
+}
+
+.calculator__title-note {
+	width: 450px;
+	font-weight: 700;
+	margin-top: 40px;
+}
+
+.advantages__box {
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.advantages__title {
+	margin-top: 10px;
+	font-size: 36px;
+}
+
+.advantages__note {
+	width: 150px;
+	font-weight: 700;
+	margin-top: 40px;
+}
+
+.advantages__items {
+	width: 33.33%;
+	height: 248px;
+	padding-top: 60px;
+	font-weight: 700;
+}
+
+.advantages__items_background {
+	background-color: #e8e8e8;
+}
+
+.advantages__items:hover {
+	border: 1px solid #f87026;
+}
+
+.form {
+	background: url(../images/komnata_ono.png);
+	margin-top: 120px;
+}
+
+.form__wrapper {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form__title_note {
+	margin-top: 10px;
+}
+
+.form__up-box {
+	display: flex;
+}
+
+.form__up-box input {
+	width: 48%;
+	margin-top: 20px;
+	padding: 15px;
+	margin-right: 15px;
+}
+
+.form__down-box input {
+	position: absolute;
+	margin-left: -33px;
+}
+
+[type="checkbox"], [type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.form__down-box {
+	display: flex;
+	margin-top: 15px;
+}
+
+.form__consult-btn {
+	width: 300px;
+	max-height: 40px;
+	background-color: #f87026;
+	color: #fff;
+	padding: 12px 30px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.form__consult-consent {
+	width: 280px;
+	margin-left: 50px;
+}
+
+.rewies__box {
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	margin-top: 60px;
+}
+
+.rewies__title-note {
+	width: 150px;
+	margin-top: 120px;
+}
+
+.rewies__title {
+	margin-top: 10px;
+	font-size: 36px;
+}
+
+.rewies__items {
+	width: 32%;
+	padding: 30px;
+	background: #e8e8e8;
+}
+
+.rewies__quotes {
+	font-family: "FontAwesome";
+	font-size: 28px;
+	font-weight: 700;
+	color: #145cbd; 
+}
+
+.rewies__sing {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 27px;
+	font-weight: 700;
+}
+
+.rewies__consult-btn {
+	display: flex;
+	width: 300px;
+	justify-content: center;
+	align-items: center;
+	background-color: #f87026;
+	color: #fff;
+	margin: 60px auto;
+	padding: 15px 0px;
+	border-radius: 3px;
+}
+
+footer {
+	background: #145cbd;
+	margin-top: 120px;
+}
+
+.footer__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #fff;
+	padding: 40px 0 30px 0;
+}
+
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 35px;
+}
+
+.footer__bottom-left a {
+	margin-right: 15px;
+}
+
+.footer__company {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0 45px 0;
+}
+
+.call__feedback {
+	border-bottom: 1px solid #fff;
+}
